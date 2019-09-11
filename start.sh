@@ -33,7 +33,7 @@ rm -f $TOMCAT_APP_PATH/webapps/ceshi01.war
 rm -rf $TOMCAT_APP_PATH/webapps/ceshi01
 
 #修改war文件名称
-cd $PROJ_PATH/all_Projects/target
+cd $PROJ_PATH/target
 mv ceshi01-0.0.1-SNAPSHOT.war ceshi01.war
 
 # 复制新的工程到webapps
